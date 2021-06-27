@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Codedzephyr/faq-accordion-card-main)
-- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/serene-borg-ad184d/overview)
+- Solution URL: [solution URL](https://github.com/Codedzephyr/faq-accordion-card-main)
+- Live Site URL: [live site URL](https://app.netlify.com/sites/serene-borg-ad184d/overview)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 

@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Assignment1
+      var firstString = "Fizz";
+      var secondString = "buzz";
+
+      var i = 0;
+      do {
+        i++;
+        if (i % 3 == 0 && i % 5 == 0) {
+          console.log(i);
+          console.log(`${firstString} ${secondString}`);
+        } else if (i % 3 == 0) {
+          console.log(i);
+          console.log(firstString);
+        } else if (i % 5 == 0) {
+          console.log(i);
+          console.log(secondString);
+        }
+      } while (i <= 100);
+      
+      // Assignment 2
+      let size = 8;
+
+      var board = "";
+
+      for (y = 0; y < size; y++) {
+        for (x = 0; x < size; x++) {
+          if ((y + x) % 2 == 0) {
+            board += "#";
+          } else {
+            board += " ";
+          }
+        }
+        board = board + "\n";
+      }
+
+      console.log(board);
+    </script>
+  </body>
+</html>
